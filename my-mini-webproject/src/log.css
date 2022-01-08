@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    background-color: black;
+  
+      background: linear-gradient(
+       45deg,
+       rgba(255, 255, 255, 0.01),
+       rgba(255, 255, 255, 0.01)
+     )
+     ,
+     url("img/AMAZE\ TV\ \(1\).png");
+}
+
+.parent{
+    height: 100px;
+    display: flex;
+    
+   background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.01),
+        rgba(255, 255, 255, 0.01)
+      ),
+      url("img/AMAZE\ TV\ \(1\).png");
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    border-bottom-style: solid;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+ }
+ 
+ .child1 {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: xx-large;
+   height: auto;
+   
+ }
+ #heading {
+   text-align: center;
+   background: linear-gradient(to left,blue,blue,red, blue, red, orange, red);
+   -webkit-background-clip: text;
+   color: transparent;
+ }
+
+#fname{
+
+     background-color: aliceblue;
+}
+
+#lname{
+    background-color: aliceblue;
+    
+
+ }
+
+#signName{
+    background-color: aliceblue;
+       
+}
+
+#signPassword{
+     background-color: aliceblue;
+ }
+
+.signup-box{
+    
+    justify-content: center;
+    align-items: center;
+     width:500px;
+  
+    /* margin-top:13%;
+    margin-left:38%; */
+    border-radius:3px;
+    background-color:white;
+}
+#logName{
+background-color: aliceblue;
+
+}
+
+#logPassword{
+    background-color: aliceblue;
+
+    
+}
+.loginbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+    /* margin-top:13%;
+    margin-left:38%; */
+    border-radius:3px;
+  
+}
+.login-box{
+    
+    justify-content: center;
+    align-items: center;
+     width:360px;
+  
+    /* margin-top:13%;
+    margin-left:38%; */
+    border-radius:3px;
+    background-color:white;
+}
+.heady{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+form label{
+    display:flex;
+    margin-top:20px;
+    font-size:18px;
+}
+
+form input{
+   
+    padding:7px;
+    border:none;
+    border:1px solid grey;
+    border-radius:6px;
+    outline:none;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    height:35px;
+    margin-top:20px;
+    border:none;
+    background-color: #49c1a2;
+    color:white;
+    font-size:18px;
+    transition:all 0.5s;
+}
+
+input:hover{
+    background:red;
+    color: black;
+}
+p{
+    text-align:center;
+    padding-top:20px;
+}

@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #344a72;
+    font-family: 'Roboto', sans-serif;
+      /* background: linear-gradient(
+       45deg,
+       rgba(255, 255, 255, 0.01),
+       rgba(255, 255, 255, 0.01)
+     )
+     ,
+     url("AMAZE\ TV\ \(1\).png"); */
+}
+
+.parent{
+    height: 100px;
+    display: flex;
+    background: silver;
+   background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.01),
+        rgba(255, 255, 255, 0.01)
+      ),
+      url("AMAZE\ TV\ \(1\).png");
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+ }
+ 
+ #heading {
+   text-align: center;
+   
+     background: linear-gradient(to left,blue,blue,red, blue, red, orange, red);
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+ .child{
+   width: 250px;
+   margin: 1px;
+   background: rgba(0, 0, 0, 0.05);
+   margin-bottom: 8px;
+   margin-top: 8px;
+ }
+
+.signup-box{
+
+    width:360px;
+    height:620px;
+    margin-left:40%;
+    margin-top:5%;
+    background-color: white;
+    border-radius:3px;
+}
+
+.login-box{
+    width:360px;
+    height:350px;
+    margin-top:13%;
+    margin-left:38%;
+    border-radius:3px;
+    background-color:white;
+}
+
+h1{
+    text-align:center;
+    padding-top:15px;
+}
+
+h4{
+    text-align:center;
+
+}
+
+form{
+    width:300px;
+    margin-left:20px;
+}
+
+form label{
+    display:flex;
+    margin-top:20px;
+    font-size:18px;
+}
+
+form input{
+    width:100%;
+    padding:7px;
+    border:none;
+    border:1px solid grey;
+    border-radius:6px;
+    outline:none;
+}
+
+input[type="button"]{
+    width:320px;
+    height:35px;
+    margin-top:50px;
+    border:none;
+    background-color: #49c1a2;
+    color:white;
+    font-size:18px;
+    transition:all 1s;
+}
+
+input:hover{
+    background:lightgray;
+}
+p{
+    text-align:center;
+    padding-top:20px;
+}

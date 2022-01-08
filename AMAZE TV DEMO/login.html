@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="child1">
+            <h1 id="heading">AMAZE TV</h1>
+        </div>
+
+
+    </div>
+    <hr>
+    <br><br>
+    <div class="loginbox">
+        <div class="login-box">
+            <div class="heady">
+                <h1>Login</h1>
+            </div>
+            <hr>
+            <div class="form">
+                <form>
+                    <label> E-mail/Username</label>
+                    <input type="email" placeholder="eg123@gmail.com" name="userid" id="logName" />
+                    <label> Password</label>
+                    <input type="password" placeholder="password" name="password" id="logPassword" />
+                    <div>
+                        <a href="#">
+                            <input type="button" onclick="check(this.form)" value="login" />
+                        </a>
+                    </div>
+
+
+                    <div>
+                        <p class="p">Not have an account? <a href="signup.html">Sign up here</a> </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="javascript">
+        function check(form) {
+            if (form.userid.value == "" || form.password.value == "") {
+                alert("please fill all the fields");
+            }
+
+            else if (form.userid.value == "srjadhav886" && form.password.value == "Aai@21214172") {
+                window.open('../day 1/practice/1.html', '_self')
+            }
+            else {
+                alert("incorrect userid and password");
+            }
+        }
+
+    </script>
+</body>
+
+</html>

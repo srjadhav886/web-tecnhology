@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="child1">
+            <h1 id="heading">AMAZE TV</h1>
+        </div>
+
+
+    </div>
+
+    <div class="loginbox">
+        <div class="signup-box ">
+            <div class="heady">
+                <h1>Sign Up</h1>
+            </div>
+            <hr>
+            <div class="form">
+
+                <form>
+                    <label> First Name</label>
+                    <input type="text" placeholder="First name" id="fname">
+                    <label> Last Name</label>
+                    <input type="text" placeholder="Last name" id="lname">
+                    <label> Username</label>
+                    <input type="username" placeholder="eg123" name="userid" id="signName">
+                    <label> Password</label>
+                    <input type="password" placeholder="password" name="password" id="signPassword">
+
+                    <div>
+                        <a href="#">
+                            <input type="button" onclick="check(this.form)" value="submit">
+                        </a>
+                    </div>
+                    <p>Already have an account? <a href="login.html">Login here</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script language="javascript">
+        function check(form) {
+            if (form.userid.value == "" || form.password.value == "") {
+                alert("please fill all the fields");
+            }
+
+            else if (form.userid.value != "@" && form.password.value != "@") {
+                window.open('login.html', '_self')
+            }
+            else {
+                alert("incorrect userid and password");
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
